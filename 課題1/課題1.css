@@ -61,7 +61,35 @@ main {
   margin: 15px 0 5px;
 }
 
+
 footer {
   height: 50px;
   background-color: #AAAAAA;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 90%;
+    display: block;
+    justify-content: center;
+  }
+
+  .step-box {
+    width: 100%;
+    margin-bottom:20px;
+    margin-right: 0px;
+  }
+
+  .step-box:last-child {
+    margin-bottom: 0;
+  }
+
+  footer {
+    width: 100%;
+  }
+
 }
