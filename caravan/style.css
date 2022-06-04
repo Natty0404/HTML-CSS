@@ -234,3 +234,10 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (maxwidth: 425px) {
+  セレクタ {
+    color:
+    width:;
+  }
+}
